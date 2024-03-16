@@ -351,7 +351,6 @@ def method_crack():
     print(f'[3] Method {3}')
     print(f'[4] Method {4}')
     print(f'[0] Back')
-    print('')
     option = input('Select method>: ')
     if option =='1':
         methods.append('methodA')
