@@ -1,5 +1,4 @@
 #---------ua-def----------#
-
   def CHERRY():
 	import os,zlib
 from os import system as osRUB
