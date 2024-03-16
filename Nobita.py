@@ -308,7 +308,7 @@ def NOBITA():
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
-   print(f'[9] Public ID Crack')
+    print(f'[9] Public ID Crack')
     print(f'[2] Random Crack ')
 #    print(f'[4] Create File')
 #    print(f'[5] Login Tool')
