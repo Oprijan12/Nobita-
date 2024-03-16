@@ -316,8 +316,7 @@ def NOBITA():
 #    print(f'[7] Separate Ids')
 #    print(f'[8] Remove Duplicate IDs')
 print(f'[3] Contact tool owner')
-    
-    select = input('Select Menu = ')
+       select = input('Select Menu = ')
     if select =='1':
         method_crack()
     elif select =='9':
