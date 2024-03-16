@@ -308,7 +308,7 @@ def NOBITA():
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
-#   print(f'[9] Public ID Crack')
+   print(f'[9] Public ID Crack')
     print(f'[2] Random Crack ')
 #    print(f'[4] Create File')
 #    print(f'[5] Login Tool')
@@ -316,7 +316,9 @@ def NOBITA():
 #    print(f'[7] Separate Ids')
 #    print(f'[8] Remove Duplicate IDs')
 print(f'[3] Contact tool owner')
-           if select =='1':
+    print('')
+    select = input('Select Menu = ')
+    if select =='1':
         method_crack()
     elif select =='9':
         exit(' This is Option Soon available ... ')
